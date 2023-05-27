@@ -9,7 +9,7 @@
      "run" : "npx cypress run --headed",
 
     "headless" : "npx cypress run --headless",
-    "dashboard-run": "npx cypress run --record --key 40384c18-0342-4562-a46a-f5e413972c1e"
+    "dashboard-run": "npx cypress run --record --key 8f13b939-13af-4845-aa9e-081731c2ea87"
   },
   "author": "",
   "license": "ISC",
