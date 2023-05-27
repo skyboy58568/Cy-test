@@ -14,7 +14,7 @@ pipeline {
                         git url: "https://github.com/skyboy58568/Cy-test.git"
                         bat 'npm install'
                         bat 'npm update'
-                        bat 'npm run triggerAllTests-autostore-dashboard'
+                        bat 'npm run dashboard-run'
                     }
                 }
                 stage('Slave Node2') {
@@ -25,7 +25,7 @@ pipeline {
                         git url: "https://github.com/skyboy58568/Cy-test.git"
                         bat 'npm install'
                         bat 'npm update'
-                        bat 'npm run triggerAllTests-autostore-dashboard'
+                        bat 'npm run dashboard-run'
                     }
                 }
             }
