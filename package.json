@@ -9,6 +9,8 @@
 
     "headless" : "npx cypress run --headless",
     "dashboard-run": "npx cypress run --record --key 8f13b939-13af-4845-aa9e-081731c2ea87"
+    "runa": "npx cypress run --spec cypress/e2e/AutomationTestStore/autotest.js"
+    "runb" : "npx cypress run --spec cypress/e2e/AutomationTestStore/file-upload.js"
   },
   "author": "",
   "license": "ISC",
