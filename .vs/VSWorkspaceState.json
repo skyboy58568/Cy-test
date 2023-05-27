@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\cypress",
+    "\\cypress\\e2e",
+    "\\cypress\\e2e\\AutomationTestStore"
+  ],
+  "SelectedNode": "\\cypress\\e2e\\AutomationTestStore\\autotest.js",
+  "PreviewInSolutionExplorer": false
+}
