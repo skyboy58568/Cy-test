@@ -14,7 +14,7 @@ pipeline {
                         git url: "https://github.com/skyboy58568/Cy-test.git"
                         bat 'npm install'
                         bat 'npm update'
-                        bat 'npm run dashboard-run'
+                        bat 'npm run runa'
                     }
                 }
                 stage('Slave Node2') {
@@ -25,7 +25,7 @@ pipeline {
                         git url: "https://github.com/skyboy58568/Cy-test.git"
                         bat 'npm install'
                         bat 'npm update'
-                        bat 'npm run dashboard-run'
+                        bat 'npm run runb'
                     }
                 }
             }
