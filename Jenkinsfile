@@ -22,7 +22,7 @@ pipeline {
                         label "remote_node2"
                     }
                     steps {
-                        Git url: "https://github.com/skyboy58568/Cy-test.git"
+                        git url: "https://github.com/skyboy58568/Cy-test.git"
                         bat 'npm install'
                         bat 'npm update'
                         bat 'npm run triggerAllTests-autostore-dashboard'
